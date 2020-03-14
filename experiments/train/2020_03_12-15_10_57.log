@@ -1,0 +1,28 @@
+
+                                                                                       < M A T L A B (R) >
+                                                                             Copyright 1984-2014 The MathWorks, Inc.
+                                                                               R2014a (8.3.0.532) 64-bit (glnxa64)
+                                                                                        February 11, 2014
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+Cleared 0 solvers and 0 stand-alone nets
+Cleared 0 solvers and 0 stand-alone nets
+{Operation terminated by user during caffe.Solver/step (line 53)
+
+
+In trainSeg>trainModel (line 122)
+        	solver.step(1);
+
+In trainSeg>trainNet (line 46)
+	trainModel(options,trainfolder,imagelist,seglist,solverpath,initmodelpath);
+
+In trainSeg (line 18)
+	trainNet(options, cachepath);
+
+In train (line 30)
+trainSeg(gpuid,options)
+} 
+
