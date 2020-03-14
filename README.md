@@ -1,4 +1,20 @@
-# PixelNet: Representation _of_ the pixels, _by_ the pixels, and _for_ the pixels.
+# 用于动静脉血管分割的像素网络
+
+![](http://qiniu.crsblog.cn/20200314140034.jpg)
+
+<font color='red'>注：红色动脉，绿色静脉</font>
+
+
+
+
+
+
+
+
+
+## 以下是原始像素网络的说明
+
+#### PixelNet: Representation _of_ the pixels, _by_ the pixels, and _for_ the pixels.
 
 We explore design principles for general pixel-level prediction problems, from low-level edge detection to mid-level surface normal estimation to high-level semantic segmentation. Convolutional predictors, such as the fully-convolutional network (FCN), have achieved remarkable success by exploiting the spatial redundancy of neighboring pixels through convolutional processing. Though computationally efficient, we point out that such approaches are not statistically efficient during learning precisely because spatial redundancy limits the information learned from neighboring pixels. We demonstrate that stratified sampling of pixels allows one to:
 
